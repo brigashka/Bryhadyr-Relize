@@ -1,1 +1,316 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+}
 
+.opticus-header {
+    background-color: #e1f4f4;
+    padding: 20px 0;
+}
+
+.container-xl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.opticus-brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0b446a;
+    text-decoration: none;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.opticus-center-block {
+    display: flex;
+    align-items: center;
+
+    flex-grow: 1;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.opticus-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link.current {
+    color: #4a90e2;
+    font-weight: 600;
+    text-decoration: underline solid;
+    text-underline-offset: 3px;
+}
+
+.opticus-search-box {
+    width: 300px;
+}
+
+.opticus-search-box .form-control {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+}
+
+.opticus-profile-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.first-section {
+    padding: 80px 0;
+    background-image: url("img/foto 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 800px;
+}
+
+.first-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.first-section-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0b446a;
+    margin-bottom: 20px;
+}
+
+.first-section-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.first-section-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    width: fit-content;
+
+    text-decoration: none;
+}
+
+.first-section-btn:hover {
+    background-color: #3a72b8;
+}
+
+
+.features-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+}
+
+.features-section .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.feature-item {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-icon {
+    font-size: 30px;
+    color: #4a90e2;
+    background-color: #e1f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.right-part {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+.glasses{
+    font-size: 37px;
+    line-height: 91px;
+    text-align: center;
+    color: #2471A3;
+}
+
+.five-blocks {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.second, .fourth {
+    transform: translateY(-50px);
+}
+
+.first, .third, .fifth {
+    transform: translateY(30px);
+}
+
+.premium-banner {
+    display: flex;
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.banner-image {
+    width: 30%;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.banner-text {
+    width: 60%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text h2 {
+    color: #34495e;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.buy-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.types-heading {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2471A3;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.glasses-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.card-image {
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #34495e;
+    font-size: 19px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #3498db;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+}
