@@ -725,15 +725,32 @@ body.light-theme footer {
 
 body.light-theme .reviews-wrapper {
     background-color: #800800;
+    color: white;
 }
 
+body.light-theme .name{
+     color: white;
+}
 
+body.light-theme .role{
+     color: white;
+}
 
+body.light-theme .text{
+     color: white;
+}
+
+body.light-theme .features-section{
+     background-color: #1f1f1e;
+}
 
 body.light-theme .buy-button{
     background-color: #0d8874;
 }
 
+body.light-theme .reviews-section {
+    background: linear-gradient(to bottom, #1f1f1e 60%, #153a59 60%);
+}
 
 
 
