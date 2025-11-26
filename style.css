@@ -6,7 +6,7 @@ body {
 }
 
 .opticus-header {
-    background-color: #e1f4f4;
+    background-color: #9ACBD0;
     padding: 20px 0;
 }
 
@@ -75,7 +75,7 @@ body {
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 16px;
     outline: none;
@@ -314,3 +314,541 @@ body {
     margin-top: 10px;
     text-align: right;
 }
+
+
+.news-first-row,
+.news-second-row {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.news-first-row img, 
+.news-second-row img {
+    width: 600px;
+}
+
+.news-text {
+    width: 600px;
+}
+
+
+.reviews-section {
+    padding-top: 50px;
+    background: linear-gradient(to bottom, #f8f8f8 60%, #3080a9 60%);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 14px;
+}
+
+.review-carousel {
+    flex: 2;
+    position: relative;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.review-slide {
+    min-width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stars {
+    margin: 10px 0;
+    color: #ffc107;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.role {
+    font-size: 14px;
+    color: #666;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #5a6a7a;
+}
+
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.dot {
+    width: 35px;
+    height: 4px;
+    background: #ffe5bf;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.dot-active {
+    background-color: #f99d34;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    color: #f99d34;
+    cursor: pointer;
+}
+
+.arrow.prev { left: -10px; }
+.arrow.next { right: -10px; }
+
+
+.review-static {
+    flex: 1;
+    border-left: 1px solid #eee ;
+    padding-left: 30px;
+}
+
+.rating-value {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+}
+
+.bar {
+    flex: 1;
+    height: 20px;
+    background: #eee;
+    border-radius: 3px;
+}
+
+.bar span {
+    height: 100%;
+    background: #f99d34;
+    display: block;
+    border-radius: 3px;
+}
+
+
+
+
+.footer {
+    background-color: #3080a9;
+    color: #ffffff;
+    padding: 80px 0 0;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+
+.footer-col {
+    flex-basis: 22%; /*кожен елемент займає 22% ширини контейнера*/
+    padding: 0 10px;
+    min-width: 200px;
+}
+
+
+.footer-col h3
+{
+     font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+
+}
+.footer-col h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+
+.footer-opticus p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(233, 233, 233);
+}
+
+
+.subscribe-form {
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.subscribe-form input {
+    padding: 10px;
+    border: 1px solid white;
+    flex-grow: 1;
+    border-radius: 4px 0 0 4px;
+    font-size: 0.9em;
+    background-color: #3080a9;
+}
+input::placeholder {
+    color: rgb(233, 233, 233);
+}
+
+
+.subscribe-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ffffff;
+    color: #3080a9;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+
+.subscribe-form button:hover {
+    background-color: #0b3a80;
+    color: white;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+.footer-links a{
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-legal a {
+    margin-left: 15px;
+    color: #ffffff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by Galahhad */
+/* switch settings 👇 */
+
+
+.ui-switch {
+  /* switch */
+  --switch-bg: rgb(135, 150, 165);
+  --switch-width: 48px;
+  --switch-height: 20px;
+  /* circle */
+  --circle-diameter: 32px;
+  --circle-bg: rgb(0, 56, 146);
+  --circle-inset: calc((var(--circle-diameter) - var(--switch-height)) / 2);
+}
+
+
+.ui-switch input {
+  display: none;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--switch-width);
+  height: var(--switch-height);
+  background: var(--switch-bg);
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.slider .circle {
+  top: calc(var(--circle-inset) * -1);
+  left: 0;
+  width: var(--circle-diameter);
+  height: var(--circle-diameter);
+  position: absolute;
+  background: var(--circle-bg);
+  border-radius: inherit;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4KICAgIDxwYXRoIGZpbGw9IiNmZmYiCiAgICAgICAgZD0iTTkuMzA1IDEuNjY3VjMuNzVoMS4zODlWMS42NjdoLTEuMzl6bS00LjcwNyAxLjk1bC0uOTgyLjk4Mkw1LjA5IDYuMDcybC45ODItLjk4Mi0xLjQ3My0xLjQ3M3ptMTAuODAyIDBMMTMuOTI3IDUuMDlsLjk4Mi45ODIgMS40NzMtMS40NzMtLjk4Mi0uOTgyek0xMCA1LjEzOWE0Ljg3MiA0Ljg3MiAwIDAwLTQuODYyIDQuODZBNC44NzIgNC44NzIgMCAwMDEwIDE0Ljg2MiA0Ljg3MiA0Ljg3MiAwIDAwMTQuODYgMTAgNC44NzIgNC44NzIgMCAwMDEwIDUuMTM5em0wIDEuMzg5QTMuNDYyIDMuNDYyIDAgMDExMy40NzEgMTBhMy40NjIgMy40NjIgMCAwMS0zLjQ3MyAzLjQ3MkEzLjQ2MiAzLjQ2MiAwIDAxNi41MjcgMTAgMy40NjIgMy40NjIgMCAwMTEwIDYuNTI4ek0xLjY2NSA5LjMwNXYxLjM5aDIuMDgzdi0xLjM5SDEuNjY2em0xNC41ODMgMHYxLjM5aDIuMDg0di0xLjM5aC0yLjA4NHpNNS4wOSAxMy45MjhMMy42MTYgMTUuNGwuOTgyLjk4MiAxLjQ3My0xLjQ3My0uOTgyLS45ODJ6bTkuODIgMGwtLjk4Mi45ODIgMS40NzMgMS40NzMuOTgyLS45ODItMS40NzMtMS40NzN6TTkuMzA1IDE2LjI1djIuMDgzaDEuMzg5VjE2LjI1aC0xLjM5eiIgLz4KPC9zdmc+");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -o-transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  ;
+}
+
+
+.slider .circle::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: inherit;
+  -webkit-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  opacity: 0;
+}
+
+
+/* actions */
+
+
+.ui-switch input:checked+.slider .circle {
+  left: calc(100% - var(--circle-diameter));
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjAiIHdpZHRoPSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4KICAgIDxwYXRoIGZpbGw9IiNmZmYiCiAgICAgICAgZD0iTTQuMiAyLjVsLS43IDEuOC0xLjguNyAxLjguNy43IDEuOC42LTEuOEw2LjcgNWwtMS45LS43LS42LTEuOHptMTUgOC4zYTYuNyA2LjcgMCAxMS02LjYtNi42IDUuOCA1LjggMCAwMDYuNiA2LjZ6IiAvPgo8L3N2Zz4=");
+}
+
+
+.ui-switch input:active+.slider .circle::before {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+  opacity: 1;
+  width: 0;
+  height: 0;
+}
+
+
+.toggle{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+body.light-theme footer {
+    background-color: #153a59;
+}
+
+
+
+
+body.light-theme .reviews-wrapper {
+    background-color: #800800;
+}
+
+
+
+
+body.light-theme .buy-button{
+    background-color: #0d8874;
+}
+
+
+
+
+body.light-theme .opticus-header{
+    background-color: #4d6668;
+}
+
+
+
+body.light-theme .opticus-search-box .form-control{
+    background-color: #808080;
+}
+
+
+
+
+body.light-theme{
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme .premium-banner{
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme .card {
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme {
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme .premium-banner{
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme .premium-banner{
+    background-color: #1f1f1e;
+}
+
+
+
+
+body.light-theme .premium-banner{
+    background-color: #1f1f1e;
+}
+
+.btn-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.cart-counter{
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-size: 15px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity: 0;
+  transition: .2s linear;
+  top: 115%;
+}
+
+
+.icon-cart {
+  width: 24.38px;
+  height: 30.52px;
+  transition: .2s linear;
+}
+
+
+.icon-cart path {
+  fill: rgb(45, 45, 45);
+  transition: .2s linear;
+}
+
+
+.btn-cart:hover > .icon-cart {
+  transform: scale(1.2);
+}
+
+
+.btn-cart:hover > .icon-cart path {
+  fill: rgb(232, 47, 47);
+}
+
+
+.btn-cart:hover .cart-counter {
+  opacity: 1;
+  top: 105%;
+}
+
+

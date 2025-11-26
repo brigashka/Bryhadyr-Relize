@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Тактичні матові",
+        "image": "img/Class sports 1.jpg",
+        "price": 1800
+    },
+
+
+    {
+        "title": "Тактичні глянцеві",
+        "image": "img/Class sports 2.jpg",
+        "price": 1800
+    },
+   
+    {
+        "title": "Окуляри-маска тактичні зелені",
+        "image": "img/Class sports 3.jpg",
+        "price": 1200
+    },
+   
+    {
+        "title": "ESS Crossbow",
+        "image": "img/Class sports 4.jpg",
+        "price": 1500
+    }
+    
+   ]

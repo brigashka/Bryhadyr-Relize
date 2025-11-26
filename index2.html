@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opticus - Окуляри твоїх мрій</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+
+<body>
+
+    <header class="navbar opticus-header">
+        <div class="container-fluid container-xl">
+            <a class="navbar-brand opticus-brand" href="index.html"><img class="logo" src="img/logo.png"> Opticus</a>
+
+            <div class="opticus-center-block">
+                <ul class="opticus-nav">
+                    <li class="nat-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nat-item"><a class="nav-link current" href="index2.html">Shop</a></li>
+                    <li class="nat-item"><a class="nav-link" href="#">About us</a></li>
+                    <li class="nat-item"><a class="nav-link" href="#footer">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="right-part">
+                <div class="opticus-search-box">
+                    <input class="form-control" type="search" placeholder="Search here" aria-label="Search">
+                </div>
+                
+                    <img src="img/account.svg">
+                    <button class="btn-cart" id="cartBtn">
+            <svg class="icon-cart" viewBox="0 0 24.38 30.52" height="30.52" width="24.38"
+                xmlns="http://www.w3.org/2000/svg">
+                <path transform="translate(-3.62 -0.85)"
+                    d="M28,27.3,26.24,7.51a.75.75,0,0,0-.76-.69h-3.7a6,6,0,0,0-12,0H6.13a.76.76,0,0,0-.76.69L3.62,27.3v.07a4.29,4.29,0,0,0,4.52,4H23.48a4.29,4.29,0,0,0,4.52-4ZM15.81,2.37a4.47,4.47,0,0,1,4.46,4.45H11.35a4.47,4.47,0,0,1,4.46-4.45Zm7.67,27.48H8.13a2.79,2.79,0,0,1-3-2.45L6.83,8.34h3V11a.76.76,0,0,0,1.52,0V8.34h8.92V11a.76.76,0,0,0,1.52,0V8.34h3L26.48,27.4a2.79,2.79,0,0,1-3,2.44Zm0,0">
+                </path>
+            </svg>
+            <span class="cart-counter">0</span>
+        </button>
+                
+            </div>
+        </div>
+    </header>
+    <section class="first-section2">
+        <div class="first-section-text2">
+            <h1 class="first-section-title2">
+                Тут ти можеш обрати <br> окуляри з нашого <br> каталогу
+            </h1>
+        </div>
+    </section>
+
+    <section class="categories">
+    <h2 class="categories__title">Категорії</h2>
+
+
+    <div class="categories__list">
+        <a href="#section1" class="category-card">
+            <div class="category-card__image">
+                <img src="img/1)Kategory sunglasses.jpg" alt="Сонцезахисні">
+            </div>
+            <p class="category-card__name">Сонцезахисні</p>
+        </a>
+
+
+        <a href="#" class="category-card">
+            <div class="category-card__image placeholder-gray">
+                <img src="img/2)Kategory oprav.jpg" alt="Оправа">
+            </div>
+            <p class="category-card__name">Оправа</p>
+        </a>
+
+
+        <a href="#" class="category-card">
+            <div class="category-card__image">
+                <img src="img/3)Kategory glasses.jpg" alt="Окуляри">
+            </div>
+            <p class="category-card__name">Окуляри</p>
+        </a>
+
+
+        <a href="#" class="category-card">
+            <div class="category-card__image">
+                <img src="img/4)Kategory sports.jpg" alt="Спортивні">
+            </div>
+            <p class="category-card__name">Спортивні</p>
+        </a>
+
+
+        <a href="#" class="category-card">
+            <div class="category-card__image placeholder-light">
+                <img src="img/5)Kategory lenses.jpg" alt="Контактні лінзи">
+            </div>
+            <p class="category-card__name">Контактні лінзи</p>
+        </a>
+
+
+        <a href="#" class="category-card">
+            <div class="category-card__image">
+                <img src="img/6)Kategory cases.jpg" alt="Футляри">
+            </div>
+            <p class="category-card__name">Футляри</p>
+        </a>
+    </div>
+</section>
+
+<!--<section class="products">
+<h2 id="section1" class="products__title">Сонцезахисні</h2>
+
+
+<div class="products__list">
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/31.png" alt="Модель Elegance">
+</div>
+<h3 class="product-card__name">Модель <span>Elegance</span></h3>
+<p class="product-card__price">Price: <span>600 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/cheysler.jpg" alt="Модель Cheysler(пол.)">
+</div>
+<h3 class="product-card__name">Модель <span>Cheysler(пол.)</span></h3>
+<p class="product-card__price">Price: <span>480 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/lamour-kids-1.jpg" alt="Модель Lamour(дит.)">
+</div>
+<h3 class="product-card__name">Модель <span>Lamour(дит.)</span></h3>
+<p class="product-card__price">Price: <span>270 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/lamour-kids-2.jpg" alt="Модель Lamour(дит.)">
+</div>
+<h3 class="product-card__name">Модель <span>Lamour(дит.)</span></h3>
+<p class="product-card__price">Price: <span>270 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/katzl-1.jpg" alt="Модель Katzl(пол.)">
+</div>
+<h3 class="product-card__name">Модель <span>Katzl(пол.)</span></h3>
+<p class="product-card__price">Price: <span>900 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/katzl-2.jpg" alt="Модель Katzl(пол.)">
+</div>
+<h3 class="product-card__name">Модель <span>Katzl(пол.)</span></h3>
+<p class="product-card__price">Price: <span>900 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/giovanni.jpg" alt="Модель Giovanni Bros">
+</div>
+<h3 class="product-card__name">Модель <span>Giovanni Bros</span></h3>
+<p class="product-card__price">Price: <span>300 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+
+
+<article class="product-card">
+<div class="product-card__image-wrap">
+<img src="img/zarini.jpg" alt="Модель Zarini">
+</div>
+<h3 class="product-card__name">Модель <span>Zarini</span></h3>
+<p class="product-card__price">Price: <span>750 грн.</span></p>
+<button class="product-card__btn">Додати в кошик</button>
+</article>
+</div>
+</section>-->
+
+
+
+    <section class="products " id="products">
+        <h2 id="section1" class="products__title">Сонцезахисні</h2>
+        <div class="container-cards products-list ">
+
+
+        </div>
+    </section>
+
+
+     <section class="products " id="products">
+        <h2 id="section1" class="products__title">Спортивні</h2>
+        <div class="container-cards products-list-2">
+
+
+        </div>
+    </section>
+
+<section class="pagination">
+    <div class="page-circle active">1</div>
+    <div class="page-circle">2</div>
+    <div class="page-circle">3</div>
+    <div class="page-circle">4</div>
+    <button class="next-btn">Далі...</button>
+</section>
+    <footer class="footer" id="footer">
+        <div class="container footer-content">
+
+            <div class="footer-col footer-opticus">
+                <h3>Opticus</h3>
+                <p>Opticus має ідеальну пару окулярів, щоб доповнити ваш образ.</p>
+                <h4>Підпишіться на нас</h4>
+                <form class="subscribe-form">
+                    <input class="email" type="email" placeholder="Email Adress">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><img src="img/Icon 03.png"></a>
+                    <a href="#" class="social-icon"><img src="img/Icon 02.png"></a>
+                    <a href="#" class="social-icon"><img src="img/Icon 01.png"></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <div class="footer-links">
+                    <a href="#">Home</a><br><br>
+                    <a href="#">Shop</a><br><br>
+                    <a href="#">About Us</a><br><br>
+                    <a href="#">Contact</a><br><br>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <div class="footer-links">
+                    <a href="#">Sun Glasses</a><br><br>
+                    <a href="#">Virtual Try-On</a><br><br>
+                    <a href="#">Lens Fitting</a><br><br>
+                    <a href="#">Lens Upgrades</a><br><br>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>Наша команда підтримки та продажів доступна цілодобово, щоб відповісти на ваші запитання</p>
+                <p class="contact-detail">
+                    <i class="bi bi-telephone"></i> +38067910075
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>Copyrigt © 2025 | Design by Dariia Bryhadyr</p>
+                <div class="footer-legal">
+                    <a href="#">terms of Use</a>
+                    <span>|</span>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="toggle">
+            <label class="ui-switch">
+                <input type="checkbox" id="themeToggle">
+                <div class="slider">
+                    <div class="circle"></div>
+                </div>
+            </label>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</div>
+
+</html>
